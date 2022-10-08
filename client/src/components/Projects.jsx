@@ -29,6 +29,26 @@ export default function Projects() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    <Card className='cards'>
+      <CardMedia
+        component="img"
+        alt="img"
+        height="170"
+        image="photos/1.jpeg"
+       />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         Video Call App
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        https://videocallapp-byjs.netlify.app/
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
     
    
     </div>
